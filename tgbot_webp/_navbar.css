@@ -1,0 +1,147 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: #BBC2FF;
+    color: #fff;
+    border-radius: 10px;
+    height: 70.42px;
+    width: 1221px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .navbar__nav {
+    color: #fff;
+  }
+  
+  /* LOGO */
+  .logo {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #000;
+    
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 49px;
+    font-size: 18px;
+    padding-left: 453px;
+  }
+
+  .menu:hover{
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+  
+  .menu li:hover {
+    background-color: #7000C8;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+
+  }
+  
+  .menu li {
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    background-color: #5F5F5F;
+    padding: 4px 19px;
+    width: 98px;
+    height: 27px;
+  }
+  .menu li a {
+    display: block;
+    text-align: center;
+    height: 100%;
+    margin-left: -19px;
+  }
+  
+  /* DROPDOWN MENU */
+  .gallery{
+    position: relative; 
+  }
+
+  .countries{
+    position: relative; 
+  }
+
+  
+  .dropdown {
+    background-color: #760089;
+    padding: 3px 0;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    top: 26px;
+  }
+
+  .dropdown:hover{
+    transition: all 1s cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  .dropdowntxt{
+    color: #000;
+  }
+  .dropdowntxt:hover{
+    color: #000;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  .countriespos{
+    margin-left: -19px;
+  }
+  
+
+  .gallerypos{
+    margin-left: -19px;
+  }
+
+  .countriespos:hover{
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+
+  .gallerypos:hover{
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+  .dropdown li + li {
+    margin-top: 3px;
+  }
+  
+  .dropdown li {
+    width: 98px;
+    text-align: center;
+    background-color: #D9D9D9;
+  }
+  
+  .dropdown li:hover {
+    background-color: #ffffff;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+  
+  .gallery:hover .dropdown {
+    display: block;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+  .countries:hover .dropdown {
+    display: block;
+    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1);
+  }
+
+#bio{
+  background-color: #7000C8;
+}
+
+#gallery{
+  background-color: #7000C8;
+}
+
+#countries{
+  background-color: #7000C8;
+}
+
+#other{
+  background-color: #7000C8;
+}

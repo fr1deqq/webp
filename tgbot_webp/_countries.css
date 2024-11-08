@@ -1,0 +1,34 @@
+.blockregion-fixation {
+    grid-template-columns: repeat(2, 286px);
+    display: grid;
+    justify-content: center;
+    column-gap: 131px;
+    row-gap: 96px;
+    margin-top: 132px;
+}
+
+.blockregion-fixation div {
+    width: 286px;
+    height: 152px;
+    background: #5B3F59;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blockregion-fixation a{
+    display: block;
+    text-align: center;
+    height: 100%;
+    color: #ffffff;
+    width: 100%;
+}
+
+.blockregion-fixation h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 67px 135px;
+}

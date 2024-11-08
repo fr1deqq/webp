@@ -1,0 +1,6 @@
+.container {
+    /* BASE */
+    max-width: 1440px;
+    padding: 46px 15px;
+    margin: 0 auto;
+}

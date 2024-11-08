@@ -1,0 +1,46 @@
+.maintxt {
+    width: 267px;
+    height: 59px;
+    background: #EC7E7E;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -17px;
+}
+.maintxt h1 {
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFF;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.block {
+    width: 900px;
+    height: 674px;
+    background: #D9D9D9;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 41px;
+}
+
+.block-fixation{
+    grid-template-columns: repeat(3, 229px);
+    display: grid;
+    justify-content: center;
+    column-gap: 67px;
+    row-gap: 32px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-fixation div {
+    width: 229px;
+    height: 126px;
+    background-color: #FFFFFF;
+}
