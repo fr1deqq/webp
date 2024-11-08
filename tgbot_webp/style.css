@@ -1,0 +1,10 @@
+@import url('parts/_reset.css');
+@import url('parts/container.css');
+@import url('parts/_navbar.css');
+@import url('parts/_main.css');
+@import url('parts/_footer.css');
+@import url('parts/_gallery_main.css');
+@import url('parts/_gallery_main_photo.css');
+@import url('parts/_gallery_main_video.css');
+@import url('parts/_countries.css');
+@import url('parts/_countries_sub.css');
